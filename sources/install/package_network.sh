@@ -138,7 +138,7 @@ function install_chisel() {
 
 function install_sshuttle() {
     # CODE-CHECK-WHITELIST=add-aliases
-    colorecho "Installing sshtuttle"
+    colorecho "Installing sshuttle"
     pipx install git+https://github.com/sshuttle/sshuttle.git
     add-history sshuttle
     add-test-command "sshuttle --version"
